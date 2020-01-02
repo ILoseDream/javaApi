@@ -1,0 +1,23 @@
+package com.yzr.learn;
+
+import com.yzr.pojo.Grade;
+import com.yzr.pojo.Student;
+
+public class Test {
+	public static void main(String[] args) {
+		Grade grade = new Grade();
+		grade.setId(0L);
+		grade.setName("admin");
+		
+        Student student = new Student();
+        student.setId(2L);
+        student.setName("guest");
+
+        Student rootUser = new Student();
+        rootUser.setId(3L);
+        rootUser.setName("root");
+
+        grade.addStudent(student);
+        grade.addStudent(rootUser);
+	}
+}

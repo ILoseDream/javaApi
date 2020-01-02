@@ -1,0 +1,23 @@
+INDEX VERSION 1.131+E:\code\workspace\apilearn\fastjsonlearn\.metadata\.plugins\org.eclipse.jdt.core
+987877241.index
+3475129944.index
+11263454.index
+2367210042.index
+3586009913.index
+2063791692.index
+3753859059.index
+3006605696.index
+3088832781.index
+253040667.index
+3256833915.index
+3187859491.index
+1206903063.index
+48060000.index
+1670502724.index
+1400419245.index
+3270896286.index
+1000067211.index
+1824743417.index
+205676703.index
+4148950653.index
+2718086848.index

@@ -1,0 +1,5 @@
+package com.yzr.pojo;
+
+public class Grade {
+
+}

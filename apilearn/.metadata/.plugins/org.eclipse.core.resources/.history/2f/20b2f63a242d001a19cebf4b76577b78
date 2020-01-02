@@ -1,0 +1,33 @@
+package com.yzr.poilearn;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.junit.Test;
+
+public class PoiAPi {
+	
+	// 1 创建工作薄
+	@Test
+	public void testCreateWorkBook() throws IOException {
+		HSSFWorkbook workbook = new HSSFWorkbook();
+		FileOutputStream stream = new FileOutputStream("workbook.xls");
+		workbook.write(stream);
+		stream.close();
+	}
+	
+	@Test
+	public void testCreateSheet() {
+		// 多态
+		Workbook workbook = new HSSFWorkbook();
+		Sheet sheet1 = workbook.createSheet("first sheet");
+		Sheet sheet2 = workbook.createSheet("second sheet");
+	}
+	
+	
+}

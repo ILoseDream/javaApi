@@ -1,0 +1,15 @@
+package com.yzr.learn;
+
+import com.yzr.pojo.Grade;
+
+public class MainTest {
+	public static void main(String[] args) {
+		
+		Grade grade = new Grade();
+		grade.setId(0L);
+		grade.setName("admin");
+		
+		
+		
+	}
+}

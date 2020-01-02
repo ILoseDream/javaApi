@@ -1,0 +1,9 @@
+package com.yzr.learn;
+
+import com.yzr.pojo.Grade;
+
+public class Test {
+	public static void main(String[] args) {
+		Grade grade = new Grade();
+	}
+}

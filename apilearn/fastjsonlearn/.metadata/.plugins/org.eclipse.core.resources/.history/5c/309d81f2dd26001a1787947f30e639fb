@@ -1,0 +1,11 @@
+package com.yzr.learn;
+
+import com.yzr.pojo.Grade;
+import com.yzr.pojo.Student;
+
+public class Test {
+	@org.junit.Test
+	public void test1() {
+		
+	}
+}

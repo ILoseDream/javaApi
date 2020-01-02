@@ -1,0 +1,10 @@
+package com.yzr.pojo;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Grade {
+	private Long id;
+	private String name;
+	private List<Student> list = new ArrayList<Student>();
+}
